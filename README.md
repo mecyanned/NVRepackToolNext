@@ -9,8 +9,15 @@
    - `pi_nvifropengl` NvIFROpenGL.dll, NvIFROpenGL64.dll
  4. Run `1. Extract.ahk`, all drivers will be extracted to the Temp\Extract folder.
  5. Run `2. Patch.ahk`, it will cleanup .inf and nvi files.
-   - [Optional] Follow [this guide](https://github.com/keylase/nvidia-patch/tree/master/win) if you want NVENC patch. Copy `nvencodeapi64.dll` and `nvencodeapi.dll` located at `Temp\Extract\{driver folder}\Disaply.Driver` folder to `Temp\Extract\{driver folder}\NVENC`. Select those files under the `NVENC` folder for patching.
-   - [Optional] Replace `Temp\Extract\{driver folder}\HDAudio` folder if you want [Dolby Digital Live](https://github.com/alanfox2000software/NVRepackTool/tree/ddl/hdaudio).
- 6. "Run '3. Pack.ahk'. An .exe repack file will be created once the compression is finished.
+   - [Optional] Follow [this guide](https://github.com/keylase/nvidia-patch/tree/master/win) if you want NVENC patch. Copy `nvencodeapi64.dll` and `nvencodeapi.dll` located at `Temp\Extract\{driver folder}\Display.Driver` folder to `Temp\Extract\{driver folder}\NVENC`. Select those files under the `NVENC` folder for patching.
+   - [Optional] Run the `"3. ##bit Dolby Digital Live Mod.bat"` obviously 32bit for 32bit and 64bit for 64bit
+5. Go to the Temp\extract\your driver base and run Launch.bat as admin and once it loads the gui select Xtreme-G button and hit yes, then press NVFBCEnable and close it
+Download [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
+Run NVCleanstall and select "Use driver files on disk" and browse and then select the setup.exe thats located in Temp\Extract and press next
+Press "All" and then next and copy whats done on "NVCleanstall.png"
+Press "Build Package" and done
 
-[More info](https://puresoftapps-nvidia.blogspot.com/)
+Credits To:
+@alanfox2000software for making the [original tool](https://github.com/alanfox2000software/NVRepackTool)
+Mecyanned (for updating it a bit and automating the dolby digital live install)
+Techpowerup for NVCleanstall
