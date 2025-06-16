@@ -1,4 +1,4 @@
-# NVIDIA Driver Repack Tool
+# NVIDIA Driver Repack Tool Next
 
  1. Install [AutoHotkey](https://www.autohotkey.com/download/ahk-v2.exe) and download [this repository](https://github.com/alanfox2000software/NVRepackTool/archive/refs/heads/main.zip).
  2. Place the downloaded .exe driver files in the Temp\Input folder.
