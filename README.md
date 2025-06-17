@@ -17,6 +17,8 @@ Run NVCleanstall and select "Use driver files on disk" and browse and then selec
 Press "All" and then next and copy whats done on "NVCleanstall.png"
 Press "Build Package" and done
 
+[Simplified Guide](https://youtu.be/nZOSDy_GzUo)
+
 Credits To:
 @alanfox2000software for making the [original tool](https://github.com/alanfox2000software/NVRepackTool)
 Mecyanned (for updating it a bit and automating the dolby digital live install)
