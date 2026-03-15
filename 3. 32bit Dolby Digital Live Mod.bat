@@ -17,7 +17,7 @@ echo Downloading Dolby Atmos Live Driver (32bit)
 echo =====================================================
 title Downloading Dolby Atmos Live Driver (32bit)
 
-curl "https://my.filesto.space/download/gAAAAABoTrBio_1skwKnw9h9T0beDAxJSxZHXQGXZndwJ9CaffibWHJbDciYwQn42P3VoKhkpO6oWZ7vDaR_7SwM8CbHdpPe0-jLZAab4tEnHRqqoZh1doE=" --output "%cd%\displayaudio.zip"
+curl "https://dl.filesto.space/download/gAAAAABptyaALdgD8PEyRQkBXwcRHSKYpG9baItHIci0K0l8Q_nFBNR4hE9owx_s7r-evncxS7ouWAVCnXKLhekhXPTt30sANwU0Hk-yoanx24xmrwc_pE27bn1VAHVWMHpC6YaGa7dw" --output "%cd%\displayaudio.zip"
 
 for /d %%i in ("%BASE_DIR%\*") do (
     mkdir "%%i\HDAudio"
